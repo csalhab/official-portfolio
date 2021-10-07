@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.bg-ccs {
+  background-color: #002776;
+}
+
+/* this holds my name */
+/* shorthand is: 1% padding applied to top, right & bottom; left has 2% padding */
+/* .navbar-brand {
+  text-transform: uppercase;
+  font-family: "Baloo Chettan 2", cursive;
+  font-weight: bold;
+  font-size: 1.75vw;
+  padding: 1% 1% 1% 1%;
+  background-color: #084e8c;
+  color: #ffffff !important;
+  border-radius: 25px;
+  margin-left: 50px;
+  text-align: center;
+} */
+
+.navbar-brand {
+  margin-left: 50px;
+}
+
+#navbarNav {
+  margin-right: 50px;
+}
+
+#navbarNav li a {
+  color: #106aa5;
+  font-weight: bold;
+  font-size: 1.3vw;
+  text-decoration: underline;
+  font-family: "Baloo Chettan 2", cursive;
+  padding-right: 35px;
+}
+
+#navbarNav li a:hover {
+  color: #fff;
+}
+
+#navbarNav li a.active {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.caption-highlight {
+  color: #ffffff;
+}
+
+.carousel-item img {
+  width: 900px;
+  height: 470px;
+  object-fit: contain;
+}
+
+.carousel-inner {
+  background-color: #002776;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info-mobile {
+  margin-top: 60px;
+}
+
+.contact-info-mobile-number {
+  margin-top: -5px;
+}
+
+.contact-info-email {
+  margin-top: 50px;
+}
+
+.contact-info-email-addy {
+  margin-top: -5px;
+}
+
+.contact-info-github {
+  margin-top: 50px;
+}
+
+.contact-info-github img {
+  border: 1px solid #106aa5;
+}
+
+.contact-info-linkedin {
+  margin-top: 50px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  color: gray;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* squeezed desktop */
+@media screen and (max-width: 1400px) {
+  /* .navbar-brand {
+    width: 80%;
+    margin-left: 5px;
+  } */
+}
+/* iPad Pro */
+@media screen and (max-width: 1024) {
+  /* .navbar-brand {
+    width: 60%;
+    margin-left: 5px;
+  } */
+  #navbarNav li a {
+    font-size: 1.5vw !important;
+    padding-right: 10px;
+  }
+  .navbar-nav > button {
+    width: fit-content;
+  }
+}
+/* Pixel2 */
+@media screen and (max-width: 411) {
+  /* .navbar-brand {
+    max-width: 50%;
+    margin-left: 1px;
+  }
+  .bg-ccs {
+    height: 1%;
+  } */
+}

@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+body {
+  padding-bottom: 150px;
+}
+
+/* this is just the background of the navbar */
+.navbar {
+  background-color: #13293d;
+  height: 150px;
+}
+
+/* this holds my name */
+/* .navbar-brand {
+  text-transform: uppercase;
+  font-family: "Baloo Chettan 2", cursive;
+  font-weight: 600;
+  font-size: 4em; */
+/* shorthand is: 10px padding applied to top, right & bottom; left has 50px padding */
+/* padding: 10px 50px;
+  background-color: #20cae8;
+  color: #13293d !important;
+  border-radius: 25px;
+} */
+/* 
+#navbarNav {
+  margin-top: 50px;
+}
+
+#navbarNav li a {
+  color: #20cae8;
+  font-weight: bold;
+  font-size: 1.75rem;
+  text-decoration: underline;
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+#navbarNav li a:hover {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.hero {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 10px;
+  /* image is a jpg found in the images folder */
+  background-image: url("../images/hero-java-code.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.heroSWE {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.SWE {
+  position: relative;
+  top: -100px;
+  margin-inline-end: 75px;
+  /* shorthand is: 10px padding applied to top, right & bottom; left has 50px padding */
+  padding: 5px 50px;
+  color: #13293d;
+  background-color: #20cae8;
+  border-radius: 15px;
+}
+
+.sidebarTitle h2 {
+  padding-left: 10px;
+}
+
+#about-me p {
+  padding-top: 15px;
+  padding-left: 10px;
+  width: 800px;
+}
+
+.profile-pic {
+  display: inline;
+  width: 270px;
+  height: 290px;
+  margin: 30px;
+  border: #51e2fc 1px solid;
+}
+
+.line-separator {
+  display: inline;
+  border-left: 5px solid #344664;
+  height: 100%;
+}
+
+#contact p {
+  padding: 30px;
+}
+
+#resume p {
+  padding: 30px;
+}
+
+.myName {
+  color: #13293d;
+  font-size: 1.25em;
+  background-color: #51e2fc;
+}
+
+.wordHighlights {
+  color: #13293d;
+  background-color: #51e2fc;
+}
+
+.iconsGroup1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  width: max-content;
+}
+
+.iconsGroup2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  width: max-content;
+}
+
+.work-container-all {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main-work-item {
+  padding-left: 20px;
+}
+
+.main-work-item img {
+  border: #51e2fc 1px solid;
+}
+
+.main-work-item h2 {
+  background-color: #13293d;
+  color: #fff;
+  padding: 2%;
+  position: relative;
+  top: 20px;
+  width: 365px;
+  box-shadow: 3px 3px #20cae8;
+  border: #51e2fc 1px solid;
+  font-size: 1.25em;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.work-container-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  width: max-content;
+  margin-top: 25px;
+}
+
+.work-item h2 {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  padding: 3%;
+  background-color: #13293d;
+  color: #fff;
+  /* height: 150px; */
+  position: relative;
+  top: 20px;
+  width: 365px;
+  box-shadow: 3px 3px #51e2fc;
+  border: #51e2fc 1px solid;
+  font-size: 1.1em;
+}
+
+.work-item img {
+  width: 430px;
+  height: 240px;
+  border: #20cae8 1px solid;
+  margin: 15px;
+}
+
+.work-container-bottom-2per {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: gray;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* large smartphones */
+/* @media screen and (max-width: 992px) { */
+/* this holds my name */
+/* .navbar-brand {
+    font-weight: 600;
+    font-size: 3em;
+  }
+} */
+
+/* large smartphones */
+/* @media screen and (max-width: 768px) { */
+/* this holds my name */
+/* .navbar-brand {
+    font-size: 2.7em;
+  }
+} */
+
+/* small smartphones */
+/* @media screen and (max-width: 576px) { */
+/* this holds my name */
+/* .navbar-brand {
+    font-size: 1.4em;
+  }
+
+  #navbarNav {
+    margin-top: 20px;
+  }
+
+  .navbar-nav .nav-link {
+    display: flex;
+    justify-content: flex-start;
+  }
+} */
