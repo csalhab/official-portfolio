@@ -103,6 +103,11 @@ body {
   margin-top: 50px;
 }
 
+.word-highlights {
+  color: #1d1d1d;
+  background-color: #e89e9e;
+}
+
 .footer {
   left: 0;
   bottom: 0;
