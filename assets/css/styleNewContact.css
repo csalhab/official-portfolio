@@ -30,6 +30,7 @@ body {
 
 .navbar-brand {
   margin-left: 50px;
+  background-color: #002776;
 }
 
 #navbarNav {
@@ -38,6 +39,7 @@ body {
 
 #navbarNav li a {
   color: #106aa5;
+  background-color: #002776;
   font-weight: bold;
   font-size: 1.3vw;
   text-decoration: underline;
@@ -61,6 +63,7 @@ body {
 .carousel-item img {
   width: 900px;
   height: 470px;
+  background-color: #002776;
   object-fit: contain;
 }
 
@@ -73,6 +76,11 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.contact-info-intro {
+  margin-top: 60px;
+  text-align: center;
 }
 
 .contact-info-mobile {
@@ -119,32 +127,75 @@ body {
 
 /* squeezed desktop */
 @media screen and (max-width: 1400px) {
-  /* .navbar-brand {
-    width: 80%;
-    margin-left: 5px;
-  } */
-}
-/* iPad Pro */
-@media screen and (max-width: 1024) {
-  /* .navbar-brand {
+  .navbar-brand {
     width: 60%;
     margin-left: 5px;
-  } */
-  #navbarNav li a {
-    font-size: 1.5vw !important;
-    padding-right: 10px;
-  }
-  .navbar-nav > button {
-    width: fit-content;
   }
 }
-/* Pixel2 */
-@media screen and (max-width: 411) {
-  /* .navbar-brand {
-    max-width: 50%;
-    margin-left: 1px;
+/* iPad Pro */
+@media screen and (max-width: 1024px) {
+  * {
+    font-size: 1.2rem;
   }
   .bg-ccs {
-    height: 1%;
-  } */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-brand {
+    width: 40%;
+    margin-left: 5px;
+    object-fit: contain;
+  }
+  #navbarNav {
+    margin-right: 5px;
+    background-color: #002776;
+  }
+  #navbarNav li a {
+    font-size: 1.8vw;
+  }
+  .carousel-item img {
+    width: 25%;
+    height: 25%;
+    object-fit: contain;
+  }
+  .footer {
+    padding-top: 55px;
+  }
+}
+
+/* iPad  */
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 60%;
+    margin-left: 10px;
+  }
+  #navbarNav {
+    margin-right: 5px;
+    background-color: #002776;
+  }
+  #navbarNav li a {
+    font-size: 3.3vw;
+  }
+  .carousel-item img {
+    width: 25%;
+    height: 25%;
+    object-fit: contain;
+  }
+  .carousel-inner {
+    background-color: #002776;
+  }
+}
+
+/* Pixel2 */
+@media screen and (max-width: 411px) {
+  * {
+    font-size: 1rem;
+  }
+  .navbar-brand {
+    width: 50%;
+    margin-left: 1px;
+  }
+  #navbarNav li a {
+    font-size: 3.3vw;
+  }
 }

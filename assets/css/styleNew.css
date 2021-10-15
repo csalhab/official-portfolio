@@ -77,7 +77,7 @@ body {
   top: -10px;
   width: 100%;
   color: #002776;
-  background-color: #b92a73;
+  background-color: #002776;
 }
 
 .SWE h2 {
@@ -113,6 +113,8 @@ body {
 .my-photo {
   width: 270px;
   height: 290px;
+  position: relative;
+  top: 45px;
 }
 
 .my-name {
@@ -140,33 +142,85 @@ body {
 /* squeezed desktop */
 @media screen and (max-width: 1400px) {
   .my-photo {
-    width: 90%;
+    width: 100%;
     object-fit: contain;
-  }
-  .navbar-brand {
-    width: 80%;
-    margin-left: 5px;
-  }
-}
-/* iPad Pro */
-@media screen and (max-width: 1024) {
-  .my-photo {
-    width: 50%;
-    object-fit: contain;
-  }
-  .contact-info p {
-    line-height: 0.75;
-    font-size: 12px;
   }
   .navbar-brand {
     width: 60%;
     margin-left: 5px;
   }
 }
-/* Pixel2 */
-@media screen and (max-width: 411) {
+/* iPad Pro */
+@media screen and (max-width: 1024px) {
+  * {
+    font-size: 1.2rem;
+  }
+  .bg-ccs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .navbar-brand {
-    max-width: 50%;
+    width: 40%;
+    margin-left: 5px;
+    object-fit: contain;
+  }
+  #navbarNav {
+    margin-right: 5px;
+    background-color: #002776;
+  }
+  #navbarNav li a {
+    font-size: 1.8vw;
+  }
+  .SWE h2 {
+    font-size: 2.8vw;
+    padding-top: 25px;
+  }
+  .my-photo {
+    width: 90%;
+  }
+  .scrollable {
+    height: 625px;
+  }
+  .footer {
+    padding-top: 55px;
+  }
+}
+
+/* iPad  */
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 60%;
+    margin-left: 10px;
+  }
+  #navbarNav li a {
+    font-size: 3.3vw;
+  }
+  .SWE h2 {
+    font-size: 3.5vw;
+    padding-top: 25px;
+  }
+  .my-photo {
+    width: 100%;
+    margin-top: -10px;
+  }
+}
+
+/* Pixel2 */
+@media screen and (max-width: 411px) {
+  * {
+    font-size: 1rem;
+  }
+  .navbar-brand {
+    width: 50%;
     margin-left: 1px;
+  }
+  #navbarNav li a {
+    font-size: 3.3vw;
+  }
+  .SWE h2 {
+    padding-top: 35px;
+  }
+  .my-photo {
+    margin-top: -80px;
   }
 }
