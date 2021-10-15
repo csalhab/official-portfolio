@@ -121,3 +121,69 @@ main {
   text-align: center;
   margin-top: 100px;
 }
+
+/* squeezed desktop */
+@media screen and (max-width: 1400px) {
+  .navbar-brand {
+    width: 60%;
+    margin-left: 5px;
+  }
+}
+/* iPad Pro */
+@media screen and (max-width: 1024px) {
+  * {
+    font-size: 1.2rem;
+  }
+  .bg-ccs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-brand {
+    width: 40%;
+    margin-left: 5px;
+    object-fit: contain;
+  }
+  #navbarNav {
+    margin-right: 5px;
+    background-color: #002776;
+  }
+  #navbarNav li a {
+    font-size: 1.8vw;
+  }
+  .footer {
+    padding-top: 55px;
+  }
+}
+
+/* iPad  */
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 60%;
+    margin-left: 10px;
+  }
+  #navbarNav li a {
+    font-size: 3.3vw;
+  }
+}
+
+/* Pixel2 */
+@media screen and (max-width: 411px) {
+  * {
+    font-size: 1rem;
+  }
+  .navbar-brand {
+    width: 50%;
+    margin-left: 1px;
+  }
+  #navbarNav li a {
+    font-size: 3.3vw;
+  }
+  .portfolio-item-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .footer {
+    padding-top: 20px;
+  }
+}
