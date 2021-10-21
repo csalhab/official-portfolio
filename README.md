@@ -6,4 +6,4 @@ This repo is my official portfolio which includes just 10 out of the 25 complete
 
 ## Deployed Application
 
-[You may see the deployed application here](https://csalhab.github.io/portfolio//)
+[You may see the deployed application here](https://csalhab.github.io/portfolio/)
