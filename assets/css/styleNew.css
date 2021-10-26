@@ -117,6 +117,14 @@ body {
   top: 45px;
 }
 
+.columbia-cert {
+  color: #002776;
+}
+
+.columbia-cert:hover {
+  color: #e89e9e;
+}
+
 .my-name {
   color: #1d1d1d;
   font-size: 1.25em;
